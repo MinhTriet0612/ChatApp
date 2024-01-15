@@ -33,6 +33,9 @@ const App = () => {
 					<Route path="t/*" element={<FrameLeftChat />}>
 						{/* <Route path="id" element={<FrameMiddle />} /> */}
 					</Route>
+					{/* <Route path="/actice" element={<FrameLeftChat />}>
+						<Route path="id" element={<FrameMiddle />} />
+					</Route> */}
 				</Routes>
 			</Main>
 		</BrowserRouter>
